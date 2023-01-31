@@ -1,0 +1,37 @@
+.header {
+
+    &__wrapper {
+        @include flex-container(space-between,center);
+        height: 120px;
+    }
+
+    &__nav{
+        @include flex-container(center,center);
+        gap: 45px;
+    }
+
+    &__menu-list {
+        @include flex-container(center,center);
+        gap: 40px;
+    }
+
+    &__list-item {
+        text-align: center;
+    }
+
+    &__item-link {
+        transition: 0.2s all;
+        color: $color-darkPink;
+        &:hover, &:focus {
+            color: #6c4c69;  
+        }
+    }
+
+    &__basket {
+        transition: .3s ease;
+        &:hover, &:focus{
+            opacity: 0.7;
+        }
+    }
+}
+

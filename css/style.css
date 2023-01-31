@@ -59,4 +59,44 @@ img {
 a {
   text-decoration: none; }
 
+body {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #5F4D5D; }
+
+.container {
+  max-width: 1175px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px; }
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px; }
+.header__menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; }
+.header__list-item {
+  text-align: center; }
+.header__item-link {
+  transition: 0.2s all;
+  color: #B08EAD; }
+  .header__item-link:hover, .header__item-link:focus {
+    color: #6c4c69; }
+.header__basket {
+  transition: .3s ease; }
+  .header__basket:hover, .header__basket:focus {
+    opacity: 0.7; }
+
 /*# sourceMappingURL=style.css.map */

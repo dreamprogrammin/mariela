@@ -1,0 +1,25 @@
+$color-bgPurpule: #C9ADC6;
+$color-bgPink: #D6BBD3;
+$color-white: #fff;
+$color-black: #000;
+$color-darkPurpure: #A78BA4;
+$color-darkPink: #B08EAD;
+$color-textPink:#5F4D5D;
+$color-lightPink: #B99BB6; 
+$color-priceGrey: #B0B0B0;
+$color-inputPink: #CEB3CB;
+
+%global-fonts {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;    
+    color: #5F4D5D;
+}
+
+@mixin flex-container($jc, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}

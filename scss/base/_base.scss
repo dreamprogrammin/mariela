@@ -1,0 +1,10 @@
+body{
+    @extend %global-fonts;
+}
+
+.container{
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
